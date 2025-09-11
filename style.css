@@ -1,159 +1,35 @@
 
 
 
-body{
-color:#c92002 ;
-background-color:#ffffff ;
-margin: 0px;
-margin-bottom: 100px;
+body {
+  background-color: #850404;
+  color: white;
+  font-family: "Bai Jamjuree", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 700px;
+  margin: 0;
 }
 
-header{
-    border-bottom: solid 2px #fa1111 ;
-    margin: 20px;
-    font-size: 32px;
-    color: black;
+button {
+  background-color: #5f0707;
+  color: white;
+  font-family: "Bai Jamjuree", sans-serif;
 }
 
-section{    
-padding-bottom: 80px;
-padding-top: 80px;
-background: gray;
-display: flex;
-justify-content: center;
+.passo {
+  display: none;
 }
 
-h1{
-color:#b61712 ;
-font-size: 40px;
-}
-
-p{
-    font-size: 20px;
-}
-
-.categoria{
-padding-left: 20px;
-padding-right: 20px;
-
-}
-
-.categoria-videos {
-    display: flex;
-    overflow-x: auto;
-    gap: 10px;
-}
-
-body{
-color:#800000 ;
-background-color:#C0C0C0 ;
-margin: 0px;
-margin-bottom: 100px;
+.passo.ativo {
+  display: block;
 }
 
 
-header{
-
-    border-bottom: solid 2px #A52A2A ;
-    margin: 20px;
-    font-size: 32px;
-    color:black;
-}
-
-section{
-    padding-bottom: 80px;
-    padding-top: 80px;
-    background:rgb(75, 3, 3);
-    display: flex;
-    justify-content: center;
-}
-
-h1{
-color:rgb(189, 29, 29) ;
-font-size: 40px;
-}
-
-p{
-    font-size: 20px;
-}
-
-  .categoria{
-
-    padding-left: 20px;
-    padding-right: 20px;
-
-  }
-
-  .categoria-videos {
-    display:flex;
-    overflow-x:auto;
-    gap: 10px;
-
-  }
-
-  img{
-
-    height: 200px;
-  }
-
-  .categoria-videos img{
-
-    opacity: 0.5;
-    height: 200px;
-
-  }
-
-  .categoria-videos img:hover{
-
-    opacity: 1.0;
-    border: 3px solid #410101 ;
-
-  }
 
 
-.chamada-texto{
-    margin-right: 1%;
-    text-align: center;
-    padding: 20px;
-    background-color: #800000;
-    color:rgb(196, 0, 0);
-}
-}
-
-section{    
-padding-bottom: 80px;
-padding-top: 80px;
-background: gray;
-display: flex;
-justify-content: center;
-}
-
-h1{
-
-img{
-    height: 200px;
-}
-
-.categoria-videos img{
-    opacity: 0.5;
-    height: 200px;
-}
-
-.categoria-videos img:hover{
-opacity:1.0;
-border: 3px solid #000000;
-
-}
-
-.categoria h2{
-color: #000000;
-
-}
-
-.chamada-texto{
-    margin-right: 1%;
-    text-align: center;
-    padding: 20px;
-    background-color: #0c0c0c;
-    color: #f31616;
+main {
+  text-align: center;
+  max-width: 90%;
 }
